@@ -1,0 +1,18 @@
+package com.practice.basicprograms;
+
+import java.util.Scanner;
+
+public class LeapYearCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int year;
+		Scanner input =  new Scanner(System.in);
+		
+		year = input.nextInt();
+		input.close();
+		
+		
+	}
+
+}

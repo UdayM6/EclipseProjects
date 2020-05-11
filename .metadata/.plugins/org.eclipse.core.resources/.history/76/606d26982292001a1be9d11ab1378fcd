@@ -1,0 +1,29 @@
+package com.practice.basicprograms;
+
+import java.util.Scanner;
+
+public class LeapYearCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int year;
+		boolean isLeap;
+		Scanner input =  new Scanner(System.in);
+		
+		year = input.nextInt();
+		input.close();
+		
+		if(year%4 == 0) {
+			if(year%100 == 0) {
+				if(year%400 == 0) {
+					isLeap = true;
+				}else
+					isLeap = false;
+			}
+			else
+				isLeap = false;
+		}
+		
+	}
+
+}

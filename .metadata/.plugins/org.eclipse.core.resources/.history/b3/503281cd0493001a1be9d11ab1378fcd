@@ -1,0 +1,14 @@
+package com.practice.strings;
+
+public class ReverseWordInString {
+
+	public void reverseWord(String str) {
+		String[] words=	 str.split(" ");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

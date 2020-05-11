@@ -1,0 +1,14 @@
+package com.practice.strings;
+
+import java.util.Scanner;
+
+public class Palindrome {
+
+	// using for/while loop
+	public static void main(String args[]) {
+		
+		System.out.print("Enter string");
+		Scanner input = new Scanner(System.in);
+		String str = input.nextLine();
+	}
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test-suite" duration-ms="66302" started-at="2019-09-10T23:10:02 IST" finished-at="2019-09-10T23:11:08 IST">
+    <groups>
+      <group name="group">
+        <method signature="TestNGGrouping.f()[pri:0, instance:testngFramework.TestNGGrouping@4973813a]" name="f" class="testngFramework.TestNGGrouping"/>
+      </group> <!-- group -->
+    </groups>
+    <test name="toolsQA" duration-ms="66228" started-at="2019-09-10T23:10:02 IST" finished-at="2019-09-10T23:11:08 IST">
+      <class name="testngFramework.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-09-10T23:10:02 IST" finished-at="2019-09-10T23:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="f" duration-ms="10" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="afterMethod" is-config="true" duration-ms="39" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testngFramework.TestNGAnnotations -->
+      <class name="testngFramework.TestNGFirst">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngFramework.TestNGFirst@369f73a2]" name="beforeMethod" is-config="true" duration-ms="12947" started-at="2019-09-10T23:10:02 IST" finished-at="2019-09-10T23:10:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testngFramework.TestNGFirst@369f73a2]" name="f" duration-ms="52404" started-at="2019-09-10T23:10:15 IST" finished-at="2019-09-10T23:11:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngFramework.TestNGFirst@369f73a2]" name="afterMethod" is-config="true" duration-ms="745" started-at="2019-09-10T23:11:07 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testngFramework.TestNGFirst -->
+    </test> <!-- toolsQA -->
+    <test name="practice grouping" duration-ms="13" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+      <class name="testngFramework.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="beforeSuite" is-config="true" duration-ms="25" started-at="2019-09-10T23:10:02 IST" finished-at="2019-09-10T23:10:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testngFramework.TestNGAnnotations@731a74c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testngFramework.TestNGAnnotations -->
+      <class name="testngFramework.TestNGGrouping">
+        <test-method status="PASS" signature="f()[pri:0, instance:testngFramework.TestNGGrouping@4973813a]" name="f" duration-ms="3" started-at="2019-09-10T23:11:08 IST" finished-at="2019-09-10T23:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testngFramework.TestNGGrouping -->
+    </test> <!-- practice grouping -->
+  </suite> <!-- test-suite -->
+</testng-results>

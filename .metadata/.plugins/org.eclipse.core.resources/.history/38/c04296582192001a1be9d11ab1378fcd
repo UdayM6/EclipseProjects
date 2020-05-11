@@ -1,0 +1,29 @@
+package com.practice.basicprograms;
+
+public class ComplexNumber {
+
+	double real, img;
+	
+	ComplexNumber(double r, double i)
+	{
+		this.real=r;
+		this.img=i;
+	}
+	
+	public static ComplexNumber sum(ComplexNumber c1, ComplexNumber c2)
+	{
+		ComplexNumber sum = new ComplexNumber(0,0);
+		sum.real = c1.real + c2.real;
+		sum.img =  c1.img + c2.real;
+		return sum;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ComplexNumber c1 = new ComplexNumber(2,3);
+		ComplexNumber c2 = new ComplexNumber(-1,4);
+		
+		ComplexNumber sum = sum(c1,c2);
+	}
+
+}

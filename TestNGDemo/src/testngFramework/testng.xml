@@ -1,0 +1,18 @@
+<suite name="test-suite">
+	<test name="toolsQA">
+		<classes>
+			<class name="testngFramework.TestNGFirst"/>
+			<class name="testngFramework.TestNGAnnotations"/>
+		</classes>
+	</test>
+	<test name="practice grouping">
+		<groups>
+			<run>
+				<include name="group"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="testngFramework.TestNGGrouping"/>
+		</classes>
+	</test>
+</suite>

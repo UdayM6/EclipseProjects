@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testngFramework.NewTest&apos; to &apos;TestNGGrouping&apos;&#x0D;&#x0A;- Original project: &apos;TestNGDemo&apos;&#x0D;&#x0A;- Original element: &apos;testngFramework.NewTest&apos;&#x0D;&#x0A;- Renamed element: &apos;testngFramework.TestNGGrouping&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NewTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testngFramework{NewTest.java[NewTest" matchStrategy="1" name="TestNGGrouping" qualified="false" references="true" similarDeclarations="false" stamp="1568137039669" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,46 @@
+package com.practice.strings;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Palindrome {
+
+	
+	public static void main(String args[]) {
+		
+		System.out.print("Enter string: ");
+		Scanner input = new Scanner(System.in);
+		String str = input.nextLine();
+		input.close();
+		
+		String revStr="";
+		
+		int length = str.length();
+		
+		// using for/while loop
+		/*
+		for (int i=length-1; i>=0; i--) {
+			revStr = revStr + str.charAt(i);
+		}
+		
+		
+		*/
+		
+		//using queue
+		Queue queue = new LinkedList();
+		for(int i = length-1;i>=0;i--)
+			queue.add(e);
+		
+		while(!queue.isEmpty()) {
+			revStr = revStr + queue.remove();
+		}
+		
+		if(str.equals(revStr)) {
+			System.out.println(str+" is a palindrome");
+		}else {
+			System.out.println(str+" is not a palindrome");
+		}
+		
+	}
+}

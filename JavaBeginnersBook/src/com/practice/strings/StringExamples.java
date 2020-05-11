@@ -1,0 +1,43 @@
+package com.practice.strings;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class StringExamples {
+
+	// find duplicate characters in given string
+	public void countDuplicateChar(String str) {
+		
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		
+		char[] chars = str.toCharArray();
+		
+		for(Character ch:chars) {
+			if(map.containsKey(ch)) {
+				map.put(ch, map.get(ch)+1);
+			}
+			else {
+				map.put(ch,1);
+			}
+		}
+		
+		Set<Character> keys = map.keySet();
+		
+		for(Character ch:keys) {
+			if(map.get(ch)>1) {
+				System.out.println("char "+ch+" "+map.get(ch));
+			}
+		}
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		StringExamples obj = new StringExamples();
+		obj.countDuplicateChar("beginnersbook.com");
+		
+		
+	}
+
+}

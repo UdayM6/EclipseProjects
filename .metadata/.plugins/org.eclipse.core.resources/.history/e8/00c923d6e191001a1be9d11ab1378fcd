@@ -1,0 +1,15 @@
+package com.practice.basicprograms;
+
+import java.util.Scanner;
+
+public class BasicPrograms {
+
+	public static void main(String[] args) {
+		// Even Odd Number program
+		int num;
+		System.out.println(num);
+		Scanner input = new Scanner(System.in);
+		
+	}
+
+}

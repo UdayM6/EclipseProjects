@@ -1,0 +1,15 @@
+package com.practice.recursion;
+
+public class PalindromeString {
+
+	public static boolean isPalindrome(String str) {
+		if(str.length()==0 || str.length()==1) {
+			return true;
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

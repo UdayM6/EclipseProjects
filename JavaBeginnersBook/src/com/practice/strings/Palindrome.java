@@ -1,0 +1,60 @@
+package com.practice.strings;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Palindrome {
+
+	
+	public static void main(String args[]) {
+		
+		System.out.print("Enter string: ");
+		Scanner input = new Scanner(System.in);
+		String str = input.nextLine();
+		input.close();
+		
+		String revStr="";
+		
+		int length = str.length();
+		
+		// using for/while loop
+		/*
+		for (int i=length-1; i>=0; i--) {
+			revStr = revStr + str.charAt(i);
+		}
+		
+		
+		*/
+		
+		//using queue FIFO
+		/*
+		Queue<Character> queue = new LinkedList<Character>();
+		for(int i = length-1;i>=0;i--)
+			queue.add(str.charAt(i));
+		
+		while(!queue.isEmpty()) {
+			revStr = revStr + queue.remove();
+		}
+		*/
+		
+		//using stack FILO
+		Stack<Character> stack = new Stack<Character>();
+		for(int i=0;i<length;i++) {
+			stack.push(str.charAt(i));
+		}
+		
+		while(!stack.isEmpty()) {
+			revStr = revStr + stack.pop();
+		}
+		
+		
+		if(str.equals(revStr)) {
+			System.out.println(str+" is a palindrome");
+		}else {
+			System.out.println(str+" is not a palindrome");
+		}
+		
+	}
+}

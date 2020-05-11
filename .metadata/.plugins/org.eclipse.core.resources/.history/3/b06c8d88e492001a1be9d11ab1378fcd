@@ -1,0 +1,17 @@
+package com.practice.strings;
+
+import java.util.Map;
+
+public class StringExamples {
+
+	// find duplicate characters in given string
+	Map<Character, Integer> hmap = new Hashmap<Character, Integer>();
+	
+	
+	public static void main(String[] args) {
+	
+	
+		
+	}
+
+}
